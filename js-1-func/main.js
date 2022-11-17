@@ -55,7 +55,7 @@
 // }
 // resultfnc();
 // Task 5 
-// function quadraticEquation(){
+// function quadratic(){
 //     let a = +prompt("Enter A: ");
 //     let b = +prompt("Enter B: ");
 //     let c = +prompt("Enter C: ");
@@ -73,7 +73,7 @@
 //       console.log(`The roots are real`);
 //     }
 // }
-// quadraticEquation();
+// quadratic();
 
 //Task7
 function radius();{
