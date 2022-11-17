@@ -4,7 +4,7 @@
 //   let result1 = a/b
 //   let result2 = a % b;
 //   console.log("Result:" + result1)
-//   console.log("Remainder :" + result2)
+//   console.log("nextresult :" + result2)
 
 
 //Task 2
@@ -47,53 +47,25 @@
 
 
 //Task 5 
-// const a = +prompt("please enter the value of A:")
-// const b = +prompt("please enter the value of B:")
-// const c = +prompt("please enter the value of C:")
-// let discriminant = b*b - 4*a*c
-// let x1 = '';
-// let x2 = '';
-// if(discriminant>0){
-// x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
-// x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
-// console.log("X1:"+x1+"\n"+"X2:"+x2)
-// }
-// else if(discriminant==0){
-//     x1=x2=-b / (2 * a);
-//     console.log("X:"+x1)
-// }
-// else {
-//     let realPart = (-b / (2 * a)).toFixed(2);
-//     let imagPart = (Math.sqrt(-discriminant) / (2 * a)).toFixed(2);
-//     console.log( `X1:${realPart} + ${imagPart}i \n  X2:${realPart} - ${imagPart}i`);
-// }
+
+//     let a = +prompt("Enter A: ");
+//     let b = +prompt("Enter B: ");
+//     let c = +prompt("Enter C: ");
+//     let discriminant = b * b - 4 * a * c;
+//     let root1;
+//     let root2;
+//     if (discriminant > 0) {
+//       root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+//       root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+//       console.log(`The roots are ${root1} and ${root2}`);
+//     } else if (discriminant == 0) {
+//       root1 = root2 = -b / (2 * a);
+//       console.log(`The root is ${root1}`);
+//     } else {
+//       console.log(`The roots are real`);
+//     }
 
 //Task 6
-// const a = +prompt("please enter the value of A:")
-// var once = [' ','One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
-// var twos = [ ' ','Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen'];
-// var tens = [ ' ','Ten', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety'];
-// let numLen = a.toString().length
-// if (numLen>2){
-//     console.log("Please enter two-digit number !")
-// }
-// else if (numLen==2 && a%10!=0 && a>=20){
-//     let first =  Math.floor(a/10);
-//     let second = a%10
-//     console.log(tens[first]+" "+once[second])
-// }
-// else if (a>10 && a<20){
-// let x = a%10
-// console.log(twos[x])
-// }
-// else if (a%10==0){
-//     let x =a/10
-//     console.log(tens[x])
-// }
-// else {
-//     console.log(once[a])
-// }
-
 
 // //Task7
 // const x = +prompt("please enter the value of X:")
